@@ -47,7 +47,7 @@ public class MazeGenerator{
     }
 
     public void dfs(){
-        Stack<Cell> stack = new Stack();
+        Stack<Cell> stack = new Stack<Cell>();
         stack.push(list.get(0));
         
         while (!stack.isEmpty()){
